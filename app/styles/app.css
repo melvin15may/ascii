@@ -1,5 +1,9 @@
 body {
-    background-color: #101010;
+    background-color: #111;
+}
+
+a {
+    cursor: pointer;
 }
 
 /* Nav Bar
@@ -75,4 +79,82 @@ body {
     margin: 0;
     line-height: 1.25;
     color: white;
+}
+
+
+/* News-Items
+ * -------------------------------------- */
+.news-item {
+    margin-top: 10px;
+    background: #151515;
+}
+
+.news-item .thumbnail {
+    margin: 10px 0;
+    border-radius: 0;
+    background: #333;
+    border: 1px solid #111;
+}
+
+.news-item h3 {
+    color: #ddd;
+}
+
+.news-item p {
+    color: #666;
+}
+
+/* Footer
+ * -------------------------------------- */
+.footer {
+    margin-top: 25px;
+    padding: 10px 0px;
+    background: #060606;
+    border-top: 1px solid #000;
+}
+
+#mail-list {
+    margin-top: 7px;
+}
+
+#mail-list input {
+    background: #222;
+    border: 1px solid black;
+    color: #ddd;
+}
+
+
+#mail-list button {
+    background-image: linear-gradient(to bottom, #333, #323232);
+    border: 1px solid #222;
+    border-radius: 0;
+    text-shadow: 0;
+    color: #eee;
+}
+
+#mail-list button:hover {
+    background-color: #222222;
+    text-shadow: 0;
+    border: 1px solid #000;
+}
+
+.footer .span2 i {
+    margin: 0 auto;
+}
+
+.footer ul {
+
+}
+
+.footer2 {
+    height: 40px;
+    background: #040404;
+    border-top: 1px #222;
+    box-shadow: inset 0px 0px 5px -1px black;
+    position: relative;
+}
+
+.footer2 p {
+    line-height: 40px;
+    margin-left: 70px;
 }
