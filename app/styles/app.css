@@ -128,20 +128,65 @@ a {
 
 .parallax-window h3 {
     margin-top: 80px;
-    font-family: 'Open Sans';
     font-size: 3em;
     color: white;
     text-align: center;
 }
 
 .parallax-window h2 {
-    font-family: 'Open Sans';
     font-size: 3em;
     font: 20px;
     margin-top: 20px;
     text-align: center;
 }
 
+
+/* Footer
+ * -------------------------------------- */
+.events-section {
+    background: #163554;
+    padding: 50px 0px;
+}
+
+.events-section h2 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.events-section h6 {
+    font-size: 1.3em;
+    color: #5F86AD;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.events-section .row-fluid {
+    width: 100%;
+}
+
+.event-item {
+    padding: 20px, 5px;
+    display: table-cell;
+}
+
+.event-item img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.events-section h4 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.events-section p {
+    color: #859CAE;
+    line-height: 21px;
+    font-size: 1.1em;
+}
 
 /* Footer
  * -------------------------------------- */
