@@ -111,6 +111,21 @@ a {
     min-height: 200px;
 }
 
+.news-annoucements {
+    background: #FB3F51; 
+    padding-right: 41px;
+}
+
+.news-events {
+    background: #38B2CE;
+    padding-right: 41px;
+}
+
+.news-blogs{
+    background: #36D986;
+    padding-right: 41px;
+}
+
 .news-section h3 {
 }
 
