@@ -1,13 +1,15 @@
-body {
-    background: #f8f8f8;
-}
+/* ********* Reset ********** */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
-a {
-    cursor: pointer;
-}
 
-/* Nav Bar
- * -------------------------------------- */
+/* ********* Clearfix ********** */
+.cf:before,
+.cf:after { content:"";display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1;}
+
+/* ********* Nav bar ********** */
+
 .navbar .navbar-inner {
     border: 0;
     line-height: 30px;
@@ -23,7 +25,6 @@ a {
     color: #ccc;
     line-height: 30px;
 }
-
 .navbar .nav li.active a {
     color: white;
     background: #222;
@@ -31,15 +32,32 @@ a {
     box-shadow: inset 0px 0px 5px black;
 }
 
-/* Carousel
- * -------------------------------------- */
-.carousel {
-    padding-top: 50px;
+/* ******** Section 1 ********* */
 
+
+#section-1{
+    background-color: black;
+    background-size: cover;
 }
 
+#section-1 header{
+        color:#FFF;
+        position:absolute;
+        top:0;
+        left:0;
+        margin:0 0 0 0;
+        width:100%;
+        height: 100%;
+    }
+
+/* ********* Carousel ******** */
+.carousel {
+    padding-top: 50px;
+    position: absolute;
+}
 .carousel .container {
     position: relative;
+    top: 450px;
     z-index: 9;
 }
 
@@ -54,7 +72,7 @@ a {
 }
 
 .carousel .item {
-    height: 500px;
+    min-height: 600px;
 }
 
 .carousel img {
@@ -62,7 +80,7 @@ a {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 500px;
+    
 }
 
 .carousel-caption {
@@ -77,13 +95,17 @@ a {
     margin: 0;
     line-height: 1.25;
     color: white;
+}}
+
+/* ********* Section 2 ********** */
+#section-2{
+    background-color: none;
 }
 
-
-/* News-Items
- * -------------------------------------- */
+/* ********* News-Items ********** */
 .news-section {
     background: #f8f8f8;
+    margin-top: 50px;
 }
 
 .news-row {
@@ -110,7 +132,6 @@ a {
     margin: 0px auto;
     min-height: 200px;
 }
-
 .news-annoucements {
     background: #FB3F51; 
     padding-right: 41px;
@@ -135,11 +156,12 @@ a {
 
 /* Parllax Split
  * -------------------------------------- */
+
 .parallax-window {
     min-height: 300px;
     background: no-repeat fixed center center url('../images/banner.jpg');
     background-size: cover;
-    color: white;
+
 }
 
 .parallax-window h3 {
@@ -154,11 +176,10 @@ a {
     font: 20px;
     margin-top: 20px;
     text-align: center;
+    color: white;
 }
 
-
-/* Footer
- * -------------------------------------- */
+/* ********* Event Section ********** */
 .events-section {
     background: #163554;
     padding: 50px 0px;
@@ -204,8 +225,7 @@ a {
     font-size: 1.1em;
 }
 
-/* Footer
- * -------------------------------------- */
+/* ********* Footer 2 ********** */
 .footer {
     padding: 10px 0px;
     background: #060606;
